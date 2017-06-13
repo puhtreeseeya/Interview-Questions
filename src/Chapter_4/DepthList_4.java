@@ -2,8 +2,6 @@ package Chapter_4;
 /*Given a binary search tree, design an algorithm which creates a linked list of all the
 nodes at each depth (i.e., if you have a tree with depth D, you’ll have D linked lists).*/
 
-import DataStructures.BinaryNode;
-
 class listNode {
     int data;
     listNode left, right, next;
@@ -50,7 +48,7 @@ public class DepthList_4 {
         root.right = new listNode(3);
         root.left.left = new listNode(4);
         root.left.right = new listNode(5);
-        root.right.left = new listNode(6);
+        root.right.right = new listNode(6);
         root.next = null;
 
         System.out.println("hello");

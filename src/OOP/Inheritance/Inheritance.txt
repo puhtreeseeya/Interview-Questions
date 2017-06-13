@@ -1,0 +1,15 @@
+Inheritance is a Java concept that is used to gives a child class the same
+functionality as its' parent class plus more.
+
+Let's say we have an imaginary class named food. The properties calorie, weight (in grams),
+cost, etc is intrinsic to almost all food items. Lets say you have a subclass called manufactured goods.
+Now manufactured goods is very very similar to food but has additional properties such as brand. Using
+inheritance we can extend the food class to include branding in a new subclass called manufactured goods.
+
+There are three different types of inheritance.
+    - Single Inheritance is where one subclass inherits from one parent class
+    - Multilevel Inheritance where one subclass inherits from a parent that inherits from a parent..
+    so on and so forth
+    - Hierarchical Inheritance is where a number of subclasses inherits from a single parent
+
+Java doesn't support inheritance from multiple parents. That is a different feature called an Interface.
