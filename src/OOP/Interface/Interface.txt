@@ -1,0 +1,15 @@
+An interface is an empty shell of a class. It's essentially a contract saying here are a list of abstract methods
+-- which are method signatures without a method body -- and it is the job of the class that implements the interface
+to define the method bodies.
+
+Reasons for interfaces:
+    - Multiple inheritance: exemplified by the Human class. 
+    - Multiple definitions for methods
+
+Possible Relationships:
+
+    An interface -- extends --> An interface
+
+    A class -- implements --> An interface
+
+    A class -- extends --> A class
