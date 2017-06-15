@@ -5,3 +5,10 @@ The point of using getters and setters instead of directly setting the fields is
 invalid inputs. Think of the String name. An empty string is still a string but it makes no sense for
 practical applications if the name of the object is empty. Therefore having a setter such as setName() and including
 the logic to check for that essentially protects the data.
+
+Access modifiers:
+
+- public: visible to the class, package, subclasses (same package and different package), and world (i.e. outside project directory)
+- protected: visible to class, package, subclasses (same package and different packages)
+- default: visible to the class, package, and subclasses ONLY within that package
+- private: visible to only the class
