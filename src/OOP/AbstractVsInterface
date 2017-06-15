@@ -17,4 +17,8 @@ When would interfaces be necessary?
     Instead of hard-coding the separate algorithms needed to play each media type. You can Instead
     create an interface with the method play. And depending on the type of file you need, let's say in our
     case you need to play an mp3. you would create a class mp3 that implements the media players play function
-    with the appropriate algorithm. This results in cleaner code that is easier to interpret. 
+    with the appropriate algorithm. This results in cleaner code that is easier to interpret.
+
+Can Abstract classes and Interfaces be instantiated?
+
+    - No, because there are no implementations for them YET. 
