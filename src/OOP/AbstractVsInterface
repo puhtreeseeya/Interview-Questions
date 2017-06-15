@@ -1,0 +1,20 @@
+Abstract Class:
+    - An abstract class can have methods with implementation
+    - An abstract method is indicated with (e.g. abstract type methodName() )
+    - Longer look up time to match methods
+
+
+
+Interface:
+    - None of the method bodies have implementations
+    - O(1) lookup time
+
+When would interfaces be necessary?
+
+    - Interfaces are necessary when you need different implementations of a method.
+
+    - Let's say you have a media player program. Now your player would need to play mp3s, CDs, wav files, etc.
+    Instead of hard-coding the separate algorithms needed to play each media type. You can Instead
+    create an interface with the method play. And depending on the type of file you need, let's say in our
+    case you need to play an mp3. you would create a class mp3 that implements the media players play function
+    with the appropriate algorithm. This results in cleaner code that is easier to interpret. 

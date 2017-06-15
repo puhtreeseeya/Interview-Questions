@@ -1,0 +1,7 @@
+The idea behind encapsulation is that you have a capsule or package so that there is no "direct"
+access by the user to the fields of the class. In order to get and set the fields the user must go through
+getters and setters -- functions that allow the user to get and set the field (e.g. getName() or setName() ).
+The point of using getters and setters instead of directly setting the fields is that it protects the data from
+invalid inputs. Think of the String name. An empty string is still a string but it makes no sense for
+practical applications if the name of the object is empty. Therefore having a setter such as setName() and including
+the logic to check for that essentially protects the data.

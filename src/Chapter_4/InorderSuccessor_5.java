@@ -1,15 +1,7 @@
 package Chapter_4;
 /*Write an algorithm to find the ‘next’ node (i.e., in-order successor) of a given node in
 a binary search tree where each node has a link to its parent.*/
-class SuccessorNode {
-    int data;
-    SuccessorNode left, right, parent;
-
-    SuccessorNode(int data) {
-        this.data = data;
-        left = right = parent = null;
-    }
-}
+import DataStructures.SuccessorNode;
 
 public class InorderSuccessor_5 {
     SuccessorNode findLeftSuccessor(SuccessorNode node) {
@@ -27,7 +19,6 @@ public class InorderSuccessor_5 {
             return findLeftSuccessor(node.right);
         }
     }
-
 
 
     public static void main(String[] args) {
